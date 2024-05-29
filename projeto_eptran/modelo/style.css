@@ -97,17 +97,10 @@ input[type="password"] {
 
 .imgpref {
 
-<<<<<<< HEAD
     width: 100vw;
     height: 150px;
     background-size: cover;
     background-position: center;
-=======
-    width: 300vw; max-width: 1000px; 
-    height: 300px;  
-    background-size: cover; 
-    background-position: center; 
->>>>>>> 7376f7679b2695b790690a19d108b0b864f61174
     position: absolute;
     top: -8%;
     left: 0%;
