@@ -33,7 +33,7 @@ label {
     margin-bottom: 5px;
 }
 
-input[type="text"],
+input[type="text"]
 input[type="password"] {
     width: calc(100% - 12px);
     padding: 10px;
@@ -81,6 +81,9 @@ input[type="password"] {
     position: absolute;
     top: 0%;
     left: 0%;
+    background-image: url("../imagens/imagemcimaLLL.jpeg");
+    background-position: 100%;
+    background-size: cover;
 
 }
 
@@ -93,20 +96,21 @@ input[type="password"] {
 
 .imgpref {
 
-    width: 100vw; 
-    height: 150px;  
+    width: 300vw; max-width: 1000px; 
+    height: 300px;  
     background-size: cover; 
     background-position: center; 
     position: absolute;
-    top: 5%;
+    top: -8%;
     left: 0%;
+  
 
 }
 
 .imgpref img{
 
     width: 30%;
-    height: 65%;
+    height: 70%;
 
 }
 
