@@ -95,14 +95,11 @@ p {
     margin-left: 20px;
 }
 
-<<<<<<< HEAD
 .btntop1 {
     background-color: #ffffff;
-=======
 .IMG {
     background-image: url(../imagens/imagemcimaLLL.jpeg);
     display: flex;
->>>>>>> d6d6c5252ab7caa57f7d7e509fac5628060bb30d
     color: #fff;
     background-size: cover;
     background-position: center;
