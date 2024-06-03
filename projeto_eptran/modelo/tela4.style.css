@@ -2,15 +2,52 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 240px
 }
 
 .quadrado {
-  width: 150px;
-  height: 100px;
+  width: 180px;
+  height: 110px;
   margin-bottom: 20px;
   background-color:white;
-  border-color:green; 
+  border-color:greenyellow; 
   border-style: solid;
   color:black;
   text-align: center;
+  transition: transform 0.9s, background-color 0.3s;
+}
+
+.quadrado:hover {
+  transform: scale(1.1);
+}
+
+.play-button {
+  width: 25px;
+  height: 25px;
+  background-color: greenyellow;
+  color:white;
+  font-size: 26spx;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.imgcima {
+  width: 100vw;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url("../imagens/imagemcimaLLL.jpeg");
+  background-position: 100%;
+  background-size: cover;
+
+}
+
+.imgcima img {
+
+  width: 100%;
+  height: 100%;
 }
