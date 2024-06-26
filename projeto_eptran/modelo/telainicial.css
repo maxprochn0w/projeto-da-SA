@@ -1,8 +1,11 @@
-.body {
-    background-image: url(../imagens/imagemcima.jpg);
-    background-image: 100%;
-}
 
-.IMGPREF {
+    body {
+        background-image: url(../imagens/imagemcima.jpg);
+
+    }
+
+    .img1 {
+        width: 100%;
+        height: 100%;
     
-}
+    }  
